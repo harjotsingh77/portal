@@ -119,6 +119,24 @@ Or run this once in Terminal:
 xattr -dr com.apple.quarantine /Applications/Portal.app
 ```
 
+#### Still blocked? Allow apps from "Anywhere"
+
+On newer macOS versions the **Anywhere** option is hidden. Show it once, then pick it:
+
+1. Open **Terminal** and run this (it asks for your Mac password; nothing appears as you type):
+
+   ```bash
+   sudo spctl --master-disable
+   ```
+
+2. Open **System Settings → Privacy & Security** and scroll down to **Security**.
+3. Under **Allow applications from**, choose **Anywhere** and confirm with your password.
+4. Open Portal again. It opens normally now.
+
+> **Note:** "Anywhere" lets *every* app open without Apple's check, not only Portal. Once Portal opens,
+> you can switch back to **App Store & Known Developers** and Portal keeps working. To turn the check
+> back on from Terminal: `sudo spctl --master-enable`
+
 ### Which Macs are supported?
 
 Any Mac with **macOS 14 Sonoma or later**. Portal is a universal app for Apple Silicon (M1–M5) and Intel Macs.
