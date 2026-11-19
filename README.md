@@ -107,6 +107,10 @@ and it tells you plainly when a game won't run:
 
 Portal is free and isn't sold through the App Store, so Apple hasn't checked it. To open it the first time:
 
+<p align="center">
+  <img src="docs/images/allow-anywhere.png" alt="System Settings, Privacy &amp; Security: 1. click Open Anyway, or 2. set Allow applications from to Anywhere" width="100%">
+</p>
+
 1. Try to open Portal once and click **Done** on the warning. Don't click *Move to Bin*.
 2. Open **System Settings → Privacy & Security**.
 3. Scroll down and click **Open Anyway** next to *"Portal" was blocked*. Then confirm with your password.
