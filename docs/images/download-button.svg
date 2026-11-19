@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 72" width="360" height="72" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b6cff"/>
+      <stop offset="1" stop-color="#2fc4d9"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="72" rx="36" fill="url(#g)"/>
+  <!-- apple-ish download glyph: arrow into tray -->
+  <g fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" transform="translate(34 18)">
+    <path d="M18 2 V24"/>
+    <path d="M9 15 L18 24 L27 15"/>
+    <path d="M3 26 V33 H33 V26"/>
+  </g>
+  <text x="86" y="34" fill="#ffffff" font-size="22" font-weight="700">Download for Mac</text>
+  <text x="86" y="55" fill="#e8f6ff" font-size="14" font-weight="500">Portal.dmg · macOS 14+ · Universal</text>
+</svg>

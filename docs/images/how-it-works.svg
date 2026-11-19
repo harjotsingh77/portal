@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 560" width="1280" height="560" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8fa8d6"/>
+    </marker>
+  </defs>
+  <rect width="1280" height="560" rx="24" fill="#141a33"/>
+
+  <text x="640" y="62" fill="#ffffff" font-size="30" font-weight="700" text-anchor="middle">What happens when you press Play</text>
+  <text x="640" y="96" fill="#93a6cc" font-size="18" text-anchor="middle">No Windows license, no virtual machine — the game talks to macOS through translation layers.</text>
+
+  <!-- column boxes -->
+  <g>
+    <!-- 1 game -->
+    <rect x="40" y="150" width="260" height="250" rx="18" fill="#1d2547" stroke="#33407a"/>
+    <circle cx="80" cy="190" r="18" fill="#3b6cff"/><text x="80" y="196" fill="#fff" font-size="18" font-weight="700" text-anchor="middle">1</text>
+    <text x="110" y="197" fill="#ffffff" font-size="21" font-weight="700">Your game</text>
+    <text x="64" y="240" fill="#c4d1ee" font-size="16">The normal .exe — from</text>
+    <text x="64" y="262" fill="#c4d1ee" font-size="16">Steam, Epic, GOG, or a</text>
+    <text x="64" y="284" fill="#c4d1ee" font-size="16">folder / .zip you dragged in.</text>
+    <rect x="64" y="318" width="212" height="56" rx="10" fill="#0f1430"/>
+    <text x="170" y="352" fill="#7fe9ff" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="middle">Game.exe</text>
+
+    <!-- 2 bottle -->
+    <rect x="345" y="150" width="270" height="250" rx="18" fill="#1d2547" stroke="#33407a"/>
+    <circle cx="385" cy="190" r="18" fill="#3b6cff"/><text x="385" y="196" fill="#fff" font-size="18" font-weight="700" text-anchor="middle">2</text>
+    <text x="415" y="197" fill="#ffffff" font-size="21" font-weight="700">A "bottle"</text>
+    <text x="369" y="240" fill="#c4d1ee" font-size="16">A private mini‑Windows folder</text>
+    <text x="369" y="262" fill="#c4d1ee" font-size="16">(C: drive, registry, settings).</text>
+    <text x="369" y="284" fill="#c4d1ee" font-size="16">Each store gets its own, so</text>
+    <text x="369" y="306" fill="#c4d1ee" font-size="16">nothing breaks anything else.</text>
+    <text x="369" y="352" fill="#8fa8d6" font-size="14" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">C:\Games\…  C:\Windows\…</text>
+
+    <!-- 3 wine -->
+    <rect x="660" y="150" width="270" height="250" rx="18" fill="#1d2547" stroke="#33407a"/>
+    <circle cx="700" cy="190" r="18" fill="#3b6cff"/><text x="700" y="196" fill="#fff" font-size="18" font-weight="700" text-anchor="middle">3</text>
+    <text x="730" y="197" fill="#ffffff" font-size="21" font-weight="700">Wine</text>
+    <text x="684" y="240" fill="#c4d1ee" font-size="16">Answers the game's Windows</text>
+    <text x="684" y="262" fill="#c4d1ee" font-size="16">calls (files, windows, sound,</text>
+    <text x="684" y="284" fill="#c4d1ee" font-size="16">input) using macOS. Rosetta 2</text>
+    <text x="684" y="306" fill="#c4d1ee" font-size="16">runs x86 code on Apple Silicon.</text>
+    <text x="684" y="352" fill="#8fa8d6" font-size="14">open source · LGPL</text>
+
+    <!-- 4 graphics -->
+    <rect x="975" y="150" width="265" height="250" rx="18" fill="#1d2547" stroke="#33407a"/>
+    <circle cx="1015" cy="190" r="18" fill="#3b6cff"/><text x="1015" y="196" fill="#fff" font-size="18" font-weight="700" text-anchor="middle">4</text>
+    <text x="1045" y="197" fill="#ffffff" font-size="21" font-weight="700">Graphics</text>
+    <text x="999" y="240" fill="#c4d1ee" font-size="16">DirectX is turned into</text>
+    <text x="999" y="262" fill="#c4d1ee" font-size="16">Apple's Metal. Portal picks</text>
+    <text x="999" y="284" fill="#c4d1ee" font-size="16">the best one for the game:</text>
+    <g font-size="13" font-weight="600">
+      <rect x="999" y="316" width="98" height="26" rx="13" fill="#2b3f86"/><text x="1048" y="334" fill="#dbe6ff" text-anchor="middle">D3DMetal</text>
+      <rect x="1105" y="316" width="64" height="26" rx="13" fill="#2b3f86"/><text x="1137" y="334" fill="#dbe6ff" text-anchor="middle">DXMT</text>
+      <rect x="999" y="350" width="64" height="26" rx="13" fill="#2b3f86"/><text x="1031" y="368" fill="#dbe6ff" text-anchor="middle">DXVK</text>
+      <rect x="1071" y="350" width="98" height="26" rx="13" fill="#2b3f86"/><text x="1120" y="368" fill="#dbe6ff" text-anchor="middle">WineD3D</text>
+    </g>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#8fa8d6" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <line x1="304" y1="275" x2="340" y2="275"/>
+    <line x1="619" y1="275" x2="655" y2="275"/>
+    <line x1="934" y1="275" x2="970" y2="275"/>
+  </g>
+
+  <!-- mac bar -->
+  <rect x="40" y="440" width="1200" height="84" rx="18" fill="#103a4a" stroke="#1f6a80"/>
+  <text x="640" y="476" fill="#ffffff" font-size="22" font-weight="700" text-anchor="middle">macOS + Metal → your game in a normal Mac window</text>
+  <text x="640" y="506" fill="#9fe3ef" font-size="16" text-anchor="middle">Portal sets all of this up automatically: downloads Wine, creates bottles, installs runtimes (Visual C++, DirectX), and picks graphics.</text>
+</svg>
