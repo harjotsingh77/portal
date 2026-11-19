@@ -22,7 +22,7 @@ graphics translation, runtimes and game stores. You don't need a Windows license
 Terminal commands.
 
 <p align="center">
-  <img src="docs/images/stores.png" alt="Portal's Game Stores page: Steam, Epic Games Store, GOG Galaxy, EA app, Ubisoft Connect, Battle.net and Rockstar Games Launcher" width="100%">
+  <img src="docs/images/stores.png" alt="Portal's Game Stores page: Steam, Epic Games Store, EA app and Rockstar Games Launcher" width="100%">
 </p>
 
 ## Install in 1 minute
@@ -41,7 +41,7 @@ Terminal commands.
 
 | | |
 |---|---|
-| **1. Get the game** | Use a store from **Game Stores** (Steam, Epic, GOG, EA, Ubisoft, Battle.net, Rockstar), or use a game you already downloaded. |
+| **1. Get the game** | Use a store from **Game Stores** (Steam, Epic, EA app, Rockstar), or use a game you already downloaded. |
 | **2. Put it in Portal** | Drag the game folder, `.zip`, `.rar`, `.7z` or `.exe` onto **Add Game**. Installers (`setup.exe`, `.msi`) run automatically. |
 | **3. Click Play** | The game appears in **My Games**. Next time, just click its poster. |
 
@@ -77,14 +77,14 @@ and it tells you plainly when a game won't run:
   **D3DMetal** (Apple, DirectX 11/12), **DXMT** (DirectX 10/11), **DXVK** (DirectX 9–11 through MoltenVK) or
   **WineD3D**. Use **Benchmark** in Power Tools to compare them.
 - **Automatic fixes.** Portal reads the game's files and installs missing Visual C++, DirectX and PhysX runtimes.
-  It starts the game's launcher (Steam, EA, Ubisoft, Rockstar) first when the game needs one. If a game crashes,
+  It starts the game's launcher (Steam, EA, Rockstar) first when the game needs one. If a game crashes,
   **Crash Doctor** reads the log and suggests a fix.
 
 ## Features
 
 | | |
 |---|---|
-| 🎮 **Game Stores** | One-click setup for Steam, Epic, GOG Galaxy, EA app, Ubisoft Connect, Battle.net and Rockstar Games Launcher. |
+| 🎮 **Game Stores** | One-click setup for Steam, Epic Games Store, EA app and Rockstar Games Launcher. |
 | 📦 **Drag and drop** | Folders, archives, `.exe` and installers. Portal finds the right `.exe` for you. |
 | 🖼️ **Library** | Cover art for every installed game from every store, in one place. |
 | 🩺 **Crash Doctor** | Reads crash logs and explains what went wrong in plain words. |

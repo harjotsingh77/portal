@@ -16,7 +16,7 @@
     <circle cx="80" cy="190" r="18" fill="#3b6cff"/><text x="80" y="196" fill="#fff" font-size="18" font-weight="700" text-anchor="middle">1</text>
     <text x="110" y="197" fill="#ffffff" font-size="21" font-weight="700">Your game</text>
     <text x="64" y="240" fill="#c4d1ee" font-size="16">The normal .exe — from</text>
-    <text x="64" y="262" fill="#c4d1ee" font-size="16">Steam, Epic, GOG, or a</text>
+    <text x="64" y="262" fill="#c4d1ee" font-size="16">Steam, Epic, EA, or a</text>
     <text x="64" y="284" fill="#c4d1ee" font-size="16">folder / .zip you dragged in.</text>
     <rect x="64" y="318" width="212" height="56" rx="10" fill="#0f1430"/>
     <text x="170" y="352" fill="#7fe9ff" font-size="16" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="middle">Game.exe</text>
