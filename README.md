@@ -27,10 +27,18 @@ Terminal commands.
 
 ## Install in 1 minute
 
+**Fastest:** paste this into Terminal. It installs Portal and opens it with no security warning:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/harjotsingh77/portal/main/install.sh | bash
+```
+
+**Or download the DMG:**
+
 1. **[Download Portal.dmg](https://github.com/harjotsingh77/portal/releases/latest/download/Portal.dmg)**.
 2. Open the DMG and drag **Portal** into **Applications**.
 3. Open Portal. The first time, macOS shows a warning because Portal isn't from the App Store
-   ([how to open it](#macos-says-portal-cant-be-opened)).
+   ([how to open it](#macos-says-apple-could-not-verify-portal)).
 4. Finish the short setup. Portal downloads Wine and the other pieces it needs (one time only).
 
 ## Play a game in 3 steps
@@ -95,13 +103,15 @@ and it tells you plainly when a game won't run:
 
 ## FAQ
 
-### macOS says "Portal can't be opened"
+### macOS says "Apple could not verify Portal"
 
 Portal is free and isn't sold through the App Store, so Apple hasn't checked it. To open it the first time:
 
-1. Try to open Portal once and close the warning.
+1. Try to open Portal once and click **Done** on the warning. Don't click *Move to Bin*.
 2. Open **System Settings → Privacy & Security**.
-3. Scroll down and click **Open Anyway** next to *"Portal" was blocked*. Then confirm.
+3. Scroll down and click **Open Anyway** next to *"Portal" was blocked*. Then confirm with your password.
+
+You only need to do this once. The Terminal installer above avoids it entirely.
 
 Or run this once in Terminal:
 
